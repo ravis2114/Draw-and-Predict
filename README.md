@@ -13,13 +13,17 @@ open terminal at forked location
 
 type
 
-python app.py
+**python app.py**
 
 ### if you want to train
 
 first run 
 
-python train_mod.py
+**python train_mod.py**
+
+then
+
+**python app.py**
 
 ## about
 this project makes use of tensorflow, flask, html/css/javascript/jquery where it is shown how to integrate all these technologies to make a wonderful AI powered system.
