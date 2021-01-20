@@ -30,7 +30,7 @@ this project makes use of tensorflow, flask, html/css/javascript/jquery where it
 
 **for any query:**
 
-follow me on [Twitter](http://www.twitter.com/rav_i_shankar)
+follow me on [Twitter](http://www.twitter.com/)
 
 ## Licence
 
