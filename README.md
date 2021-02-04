@@ -9,12 +9,15 @@ Requirements :
 
 To Train :
 --
-> python train_mod.py
+```
+python train_mod.py
+```
 
 To Load & Run Trained Model :
 --
-> python app.py
-
+```
+python app.py
+```
 
 
 License
