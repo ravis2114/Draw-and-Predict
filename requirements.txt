@@ -1,3 +1,2 @@
-tensorflow
-gunicorn
+tensorflow-cpu
 Flask
