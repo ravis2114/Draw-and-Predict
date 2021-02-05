@@ -9,9 +9,6 @@ import tensorflow as tf
 
 new_model = tf.keras.models.load_model('my_model.h5')
 
-image_dict = {}
-global i
-i=0
 app = Flask(__name__)
 
 @app.route('/')
