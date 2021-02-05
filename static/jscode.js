@@ -57,7 +57,7 @@ function SaveImg() {
     
     $.ajax({
           type: "POST",
-          url: "{{url_for('hello_image')}}",
+          url: "/imgrec",
           data:{
             imageBase64: dataURL
           }
