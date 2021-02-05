@@ -53,8 +53,8 @@ def hello_image():
     ###############----PREDICTION----###########################
     prediction = new_model.predict(img.reshape(1,28,28)) #input (batch_size, dimensions)
     #outputs 1-d of shape equals to number of classes
-    print(np.argmax(prediction)) #getting the index of highest value
-    print(f'the number is {np.argmax(prediction)}')
+    #print(np.argmax(prediction)) #getting the index of highest value
+    #print(f'the number is {np.argmax(prediction)}')
     resp_dict = {'pred': int(np.argmax(prediction))} # making dictionary to send it back through POST request
 
     #resp = jsonify(resp_dict)
