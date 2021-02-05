@@ -1,3 +1,4 @@
 tensorflow-cpu
 opencv-python-headless
 Flask
+Pillow
