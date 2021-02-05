@@ -53,6 +53,7 @@ function SaveImg() {
     var scratchCanvas = document.getElementById('myCanvas');
     var context = scratchCanvas.getContext('2d');
     var dataURL = scratchCanvas.toDataURL();
+    //console.log(dataURL)
     
     $.ajax({
           type: "POST",
