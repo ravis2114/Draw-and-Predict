@@ -1,37 +1,27 @@
-# Flask-Mnist
-**requirement:**
+# Draw & Recognize Digit
+This project makes use of tensorflow, flask, html/css/javascript/jquery where it is shown how to integrate all these technologies to make a wonderful AI powered system.
 
-tensorflow
+Requirements :
+--
+- TensorFlow
+- Flask
+- jQuery==1.7.1
 
-Flask
+To Train :
+--
+```
+python train_mod.py
+```
 
-Jquery==1.7.1
+To Load & Run Trained Model :
+--
+```
+python app.py
+```
 
-## To run:
 
-open terminal at forked location
+License
+--
+[MIT][link1]
 
-type
-
-**python app.py**
-
-### if you want to train
-
-first run 
-
-**python train_mod.py**
-
-then
-
-**python app.py**
-
-## about
-this project makes use of tensorflow, flask, html/css/javascript/jquery where it is shown how to integrate all these technologies to make a wonderful AI powered system.
-
-**for any query:**
-
-follow me on [Twitter](http://www.twitter.com/)
-
-## Licence
-
-just mention my twitter id
+[link1]: <https://github.com/ravis2114/Draw-and-Recognize-Digit/blob/master/LICENSE>
