@@ -14,32 +14,30 @@ body{
         background-attachment: fixed;
         display: flex;
         position: relative;
+        height: 400px;
         
 }
 
 #one{
 margin-top: 150px;
+height: 400px;
 }
 
 
-#canvas{
-    display: contents;
-    width: fit-content;
-    height: fit-content; 
-    position: absolute;
 
-}
-canvas{
-    height: 400px;
-    width: 400px;
-    border: 2px solid red;
-    margin-top: 50px;
-    margin-left: 50px;
-    background-color: white;
-    border-radius: 10px;
-
+#myCanvas{
+    margin-left: 100px;
+    border-radius: 20px;
 }
 
+
+
+
+
+#btns{
+    
+    margin-left: 100px;
+}
 #btn1{
 
     background-color: #4CAF50; /* Green */
@@ -123,4 +121,4 @@ canvas{
     font-size: 30px;
     font-weight: bolder;
 
-}
+}z
